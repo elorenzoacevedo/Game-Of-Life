@@ -1,0 +1,107 @@
+body {
+    background-color: #227994;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 300px;
+    background: linear-gradient(110deg, #fdcd3b 40%, #ffed4b 60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 4px outset whitesmoke;
+}
+
+#errors {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background: rgba(247, 112, 94, 0.4);
+    border: 1px solid rgba(247, 112, 94, 0.5);
+}
+
+#container {
+    width: 450px;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 10%;
+}
+
+#container ul {list-style-type: none;}
+
+#container li {margin-bottom: 15px;}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  color: #0f1111;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  text-decoration: none;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: #f7fafa;
+}
+
+.btn:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.submitBtn {
+    margin-bottom: 10px;
+    background: #016ABC;
+    font-size: 14pt;
+    width: 20%;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background: #004071;
+}
+
+#leaderboardBtn {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+th {
+    background-color: black;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }

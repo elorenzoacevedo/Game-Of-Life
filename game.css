@@ -1,0 +1,146 @@
+body{
+    background: #227994;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background: linear-gradient(110deg, #fdcd3b 40%, #ffed4b 60%);
+    width: 500px;
+    height: 50px;
+    padding-top: 0.1px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 2em;
+    border: 4px outset whitesmoke;
+}
+
+#config {
+    background-color: #6EDDFF;
+    width: 450px;
+    height: 250px;
+    position: fixed;
+    top: 5%;
+    left: 32.3%;
+    border: 2px groove salmon;
+    text-align: center;
+}
+
+ul {list-style-type: none;}
+
+ul label {
+    width: 1em;
+    float: left;
+}
+
+li {margin-bottom: 10px;}
+
+span {
+    clear: both;
+    font-size: 12pt;
+    color: darkred;
+}
+
+.okbtn {
+    font-size: 14pt;
+    width: 20%;
+    background-color: lightgreen;
+}
+
+.hidden {visibility: hidden;}
+
+#grid {
+    border: 2px inset black;
+    display: table;
+    margin: auto;
+}
+
+.cell {
+    border: 2px inset black;
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-collapse: collapse;
+}
+
+.cell:hover {
+    box-shadow: 0px 0px 3px 3px #111;
+    cursor: pointer;
+}
+
+.clear {clear: both;}
+
+.alive {background-color: #E0954A;}
+.dead {background-color: rgb(190, 190, 190);}
+
+#dropdown {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#buttons {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#buttons button {
+    background-color: lightgreen;
+    font-size: 14pt;
+    border-radius: 10%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#buttons button:hover {
+    background-color: green;
+}
+
+#score {
+    width: 150px;
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+    font-size: 16pt;
+}
+
+.btn {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    color: #0f1111;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    text-decoration: none;
+    width: 100px;
+  }
+  
+  .btn:hover {
+    background-color: #f7fafac7;
+  }
+  
+  .btn:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+
+  #logout {
+    width: 150px;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }

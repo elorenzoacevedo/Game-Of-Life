@@ -1,0 +1,4 @@
+mipistola:24
+mipistola:102
+mipistola:0
+nuevo:482
